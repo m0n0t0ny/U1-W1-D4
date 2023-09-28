@@ -11,7 +11,6 @@ body {
   background-image: url(../img/sfondo.png);
   background-position: center;
   background-size: 1000px;
-  padding: 1.75rem;
 }
 
 header,
@@ -69,6 +68,7 @@ header {
   text-align: center;
   font-weight: 600;
   font-size: 24px;
+  margin-top: 2.5rem;
 }
 
 header img {
@@ -142,9 +142,21 @@ table {
   width: 100%;
 }
 
+caption {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
 thead {
   background-color: #3366cc;
   color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #dddddd;
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777;
 }
 
 th {
@@ -157,6 +169,7 @@ th {
 td {
   text-align: center;
   padding: 2rem 0;
+  border-right: 1px solid #fff;
 }
 
 /* FORM */
@@ -252,6 +265,11 @@ footer {
   text-align: center;
   color: #fff;
   font-size: 20px;
+  margin-bottom: 2.5rem;
+}
+
+footer h5 {
+  margin-bottom: 1rem;
 }
 
 footer p {
