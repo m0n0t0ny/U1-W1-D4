@@ -139,14 +139,24 @@ iframe {
 
 table {
   border-bottom: 2px solid rgb(69, 69, 246);
+  width: 100%;
 }
 
 thead {
-  background-color: blue;
+  background-color: #3366cc;
   color: white;
 }
 
+th {
+  padding: 2rem 1rem;
+  text-align: center;
+  vertical-align: bottom;
+  border: 1px solid #ddd;
+}
+
 td {
+  text-align: center;
+  padding: 2rem 0;
 }
 
 /* FORM */
